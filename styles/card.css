@@ -1,0 +1,47 @@
+.movie__list {
+    padding: 0 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.movies__container {
+    padding: 30px;
+    width: 45em;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+    border-radius: 35px;
+}
+
+.no-movies__container {
+    padding-left: 30px;
+    width: 45em;
+    height: auto;
+}
+
+.movies__container:hover {
+    background-color: #D9D9D9;
+}
+
+.card__img {
+    width: 100px;
+    height: auto;
+}
+
+.card__header {
+font-weight: 700;
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.card__year {
+font-size: 25px;
+margin-bottom: 18px;
+color: #0094ff;
+}
+
+.card__type {
+    font-size: 30px;
+}

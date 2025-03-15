@@ -1,0 +1,60 @@
+@import url('../styles/card.css');
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.app__container {
+   padding-top: 100px;
+}
+
+.app__header {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.search__container{
+    padding: 0 193px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-bottom: 50px;
+
+}
+
+
+.search__input {
+    padding: 11px 206px 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-color: #FFFFFF;
+    outline: none;
+    font-size: 32px;
+}
+
+.search__input:focus {
+    background-color: #FFFFFF;
+    outline: none;
+}
+
+.search__button {
+    padding: 11px 70px 10px 69px;
+    font-size: 32px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #0094FF;
+}
+
+.search__button-active {
+background-color: #000000;
+}
+
