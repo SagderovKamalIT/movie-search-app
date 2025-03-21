@@ -1,0 +1,80 @@
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.details_container {
+    padding: 60px 100px;
+
+}
+
+.details__container {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin-bottom: 75px;
+  
+}
+
+.details__link {
+    text-decoration: none; 
+    display: block; 
+}
+
+.details__container-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 125px;
+    padding-left: 40px;
+    color: #000;
+}
+
+.details__container-img {
+    background-image: url('../recources/arrow.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top 5px left -1px;
+    
+}
+
+
+
+.details__image {
+    padding-top: 40px;
+    display: block;
+    width: 300px;
+}
+
+.details__title {
+font-weight: 700;
+font-size: 50px;
+margin-bottom: 35px;
+}
+
+.details__info {
+    display: flex;
+    gap: 25px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.details__value {
+font-size: 30px;
+color: #0094ff;
+}
+
+.about__container {
+    padding: 0 80px;
+}
+
+.about__paragraph {
+    font-size: 30px;
+}
+
